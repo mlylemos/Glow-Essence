@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Essence</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Glow Essence</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-stars me-1"></i>
+                            Lançamentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bag-heart me-1"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://i.pinimg.com/originals/90/0d/1c/900d1ce27e767f6a5fd95227f0e15243.jpg" alt="Foto do espaço interno da loja make">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://lojadecosmeticospro.com.br/wp-content/uploads/2020/06/DSC_0096-2048x1360.jpg" alt="Foto do espaço interno da loja hair">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://i.pinimg.com/originals/67/a1/e6/67a1e68bd67f5d3b1ffce41e1f8cb2b3.jpg" alt="Foto do espaço interno da loja skin">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./glow imgs/loja.png" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                A Glow Essence é uma loja de cosméticos que oferece uma ampla variedade de produtos de maquiagem, cabelo e skin care. Nosso objetivo é realçar a beleza natural de cada cliente com produtos de qualidade e tendências inovadoras do mercado.
+                            </p>
+                            <h3 class="section-title">Nossa <span class="text-colored">história</span></h3>
+                            <p>
+                                A Glow Essence nasceu da paixão por cuidados pessoais e bem-estar. Desde o início, buscamos proporcionar uma experiência única, oferecendo produtos cuidadosamente selecionados para atender às necessidades de cada pessoa. Com dedicação e compromisso, crescemos e nos tornamos uma referência em beleza e autocuidado.
+                            </p>
+                            <ul>
+                                <li>Produtos de Alta Qualidade 🏆</li>
+                                <li>Variedade para Todos os Estilos 💖</li>
+                                <li>Referência no mundo da beleza💄</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Glow Essence <span class="text-colored">Apresenta 🪄</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./glow imgs/sombra.png" alt="paleta de sombra" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-palette"></i>
+                            Nova paleta de sombras Glow Essence
+                        </h3>
+                        <p>
+                            A paleta de sombras Glow Essence chegou para transformar sua make! Com uma seleção incrível de tons neutros e cintilantes, essa paleta oferece alta pigmentação, longa duração e textura aveludada que facilita a aplicação e o esfumado. Seja para um look básico do dia a dia ou para uma produção glamorosa, ela tem tudo o que você precisa! Aposte na versatilidade e no brilho que realça sua beleza.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./glow imgs/shampoo.png" alt="foto do conjunto" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-scissors"></i>
+                            Nova linha de shampoo e condicionador Glow Essence
+                        </h3>
+                        <p>
+                            Seus cabelos merecem um cuidado especial, e a nova linha Glow Essence foi desenvolvida para proporcionar hidratação intensa, brilho absoluto e nutrição profunda desde a raiz até as pontas. Com uma fórmula enriquecida com ativos naturais, como óleo de argan e extrato de aloe vera, o shampoo limpa suavemente sem ressecar, enquanto o condicionador desembaraça e sela os fios, garantindo maciez e proteção contra danos.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./glow imgs/serum.png" alt="foto do sérum" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-droplet"></i>
+                            Novo sérum facial Glow Essence
+                        </h3>
+                        <p>
+                            Quer uma pele radiante e saudável todos os dias? O novo Sérum Facial Glow Essence é a resposta! Com uma fórmula leve e de rápida absorção, ele combina ácido hialurônico, vitamina C e extrato de chá verde para hidratar profundamente, uniformizar o tom da pele e combater os sinais de envelhecimento. Ideal para todos os tipos de pele, ele deixa um glow natural sem pesar, perfeito para usar antes da maquiagem ou na sua rotina de skincare.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-produtos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#maquiagem" class="fw-bold text-start nav-link text-colored active">Produtos de Maquiagem 💄</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#skincare" class="fw-bold text-start nav-link text-colored">Produtos de Skin Care 🧴</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#cabelo" class="fw-bold text-start nav-link text-colored">Produtos de Cabelo 🪮</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="maquiagem">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/sombra.png" ">
+                                        <h5 class="text-colored fw-bold mt-2">Nova paleta de sombras Glow Essence</h5>
+                                        <P>
+                                            <ul class="ps-3">
+                                                <li>Textura aveludada e fácil de esfumar</li>
+                                                <li>Cores intensas e altamente pigmentadas</li>
+                                                <li>Acabamento matte, cintilante e metálico</li>
+                                                <li>Compacta e perfeita para levar na bolsa</li>
+                                            </ul>
+                                        </P>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/baton.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Batons Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Textura cremosa e confortável</li>
+                                                <li>Cores vibrantes para todas as ocasiões</li>
+                                                <li>Alta pigmentação e longa duração</li>
+                                                <li>Hidratação e acabamento impecável</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/gloss.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Gloss labial Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Efeito espelhado e volumoso</li>
+                                                <li>Não deixa os lábios pegajosos</li>
+                                                <li>Fórmula hidratante com brilho intenso</li>
+                                                <li>Perfeito para usar sozinho ou sobre o batom</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/rimel.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Rímel preto Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Volume e alongamento incríveis</li>
+                                                <li>Resistente à água e ao suor</li>
+                                                <li>Aplicação fácil sem borrar</li>
+                                                <li>Realça e define os cílios instantaneamente</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/lápis.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Lápis de olho Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Traço preciso e suave</li>
+                                                <li>Textura macia e alta pigmentação</li>
+                                                <li>À prova d’água para um olhar duradouro</li>
+                                                <li>Ideal para delineados e esfumados</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/corretivo.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Corretivo Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Alta cobertura sem pesar</li>
+                                                <li>Disfarça olheiras e imperfeições</li>
+                                                <li>Textura leve e fácil de espalhar</li>
+                                                <li>Acabamento natural e de longa duração</li>
+                                            </ul>   
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/blush.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Blush Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Toque de cor natural e radiante</li>
+                                                <li>Textura aveludada e fácil de esfumar</li>
+                                                <li>Cores que combinam com todos os tons de pele</li>
+                                                <li>Compacto e perfeito para retoques</li>
+                                            </ul>
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/base.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Base Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Pele uniforme e hidratada o dia todo</li>
+                                                <li>Textura leve e confortável</li>
+                                                <li>Cobertura ajustável para um efeito natural</li>
+                                                <li>Controle de oleosidade com acabamento impecável</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2020/04/02/05/19/beauty-4993472_1280.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Kit de beleza Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Tudo o que você precisa em um só lugar</li>
+                                                <li>Produtos de alta qualidade e durabilidade</li>
+                                                <li>Compacto e ideal para levar na bolsa</li>
+                                                <li>Perfeito para presentear ou se mimar</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="skincare">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/serum.png">
+                                        <h5 class="text-colored fw-bold mt-2">Novo sérum facial Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Pele hidratada e radiante todos os dias!</li>
+                                                <li>Fórmula leve, rápida absorção e sem oleosidade!</li>
+                                                <li>Com ativos poderosos para uma pele saudável!</li>
+                                                <li>O segredo para um glow natural e duradouro!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src="https://get.pxhere.com/photo/hand-tube-cream-lip-material-product-skin-cosmetics-skincare-eye-cream-the-body-shop-1032695.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Hidratante Facial com Niacinamida</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Controle da oleosidade sem ressecar a pele!</li>
+                                                <li>Hidratação profunda e toque aveludado!</li>
+                                                <li>Reduz marcas e melhora a textura da pele!</li>
+                                                <li>Ideal para todos os tipos de pele!</li>
+                                            </ul>
+                                        </p> 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src="https://cdn.pixabay.com/photo/2021/09/28/13/57/skincare-6664574_1280.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Máscara Facial de Argila Verde</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Detox imediato para uma pele purificada!</li>
+                                                <li>Absorve a oleosidade e minimiza os poros!</li>
+                                                <li>Sensação refrescante e revigorante!</li>
+                                                <li>Limpeza profunda sem ressecar a pele!</li>
+                                            </ul>
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/84944/84944_neutrogena_img-secundaria.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Protetor solar Facial Neutrogena</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Proteção UVA/UVB com toque seco!</li>
+                                                <li>Pele protegida sem sensação pegajosa!</li>
+                                                <li>Não obstrui os poros e não causa acne!</li>
+                                                <li>Indispensável para a rotina de skincare!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src="https://kbeautystore.vteximg.com.br/arquivos/ids/1058038-1200-1200/OLEO-ROSA-MOSQUETA-PURO-FARMAX-30ML.jpg?v=637486468984500000">
+                                        <h5 class="text-colored fw-bold mt-2">Óleo Facial de Rosa Mosqueta</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Reduz manchas e uniformiza o tom da pele!</li>
+                                                <li>Poderoso antioxidante para uma pele jovem!</li>
+                                                <li>Nutrição intensa sem sensação oleosa!</li>
+                                                <li>Regenera e hidrata profundamente!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src="https://guiadoskincare.com.br/wp-content/uploads/2021/08/esfolianteenzimatico-800x600.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Esfoliante Facial com Enzimas de Frutas</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Pele macia e renovada desde o primeiro uso!</li>
+                                                <li>Esfoliação suave sem agredir a pele!</li>
+                                                <li>Remove células mortas e ilumina o rosto!</li>
+                                                <li>Fragrância deliciosa e efeito refrescante!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src=" https://cdn.pixabay.com/photo/2022/06/11/13/32/sunscreen-7256345_1280.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Protetor solar corporal</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Proteção duradoura contra os raios solares!</li>
+                                                <li>Fórmula resistente à água e ao suor!</li>
+                                                <li>Rápida absorção e textura leve!</li>
+                                                <li>Essencial para a saúde da sua pele!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded size" src="https://c.pxhere.com/photos/e8/a3/skincare_beauty_skin_cosmetics-1059604.jpg!d">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Skincare Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Completo para uma rotina de cuidados eficaz!</li>
+                                                <li>Pele hidratada, protegida e radiante!</li>
+                                                <li>Produtos de alta performance para um glow perfeito!</li>
+                                                <li>Tudo o que você precisa para uma pele saudável!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cabelo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/shampoo.png" alt="imagem de shampoo e condicionador">
+                                        <h5 class="text-colored fw-bold mt-2">Nova linha de shampoo e condicionador Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Limpeza suave sem agredir os fios</li>
+                                                <li>Hidratação profunda e nutrição intensa</li>
+                                                <li>Brilho espelhado e cabelos mais sedosos</li>
+                                                <li>Fórmula livre de parabenos e sulfatos</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/mascara.png">
+                                        <h5 class="text-colored fw-bold mt-2">Máscara Hidratante Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Hidratação profunda para fios saudáveis e brilhantes!</li>
+                                                <li>Recupera a maciez e reduz o frizz desde a primeira aplicação!</li>
+                                                <li>Fórmula nutritiva para cabelos sedosos e revitalizados!</li>
+                                                <li>Tratamento intensivo para fios mais fortes e resistentes!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/unnamed.png">
+                                        <h5 class="text-colored fw-bold mt-2">Leave-in Capilar Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Proteção térmica e brilho duradouro sem pesar!</li>
+                                                <li>Desembaraço fácil e controle do frizz o dia todo!</li>
+                                                <li>Nutrição leve para cabelos macios e maleáveis!</li>
+                                                <li>Toque sedoso e efeito antifrizz para um visual impecável!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./glow imgs/kit.png" >
+                                        <h5 class="text-colored fw-bold mt-2">Kit Capilar Glow Essence</h5>
+                                        <p>
+                                            <ul class="ps-3">
+                                                <li>Cuidado completo para fios hidratados e radiantes!</li>
+                                                <li>Nutrição, brilho e reparação em um só kit!</li>
+                                                <li>Contém shampoo, condicionador, máscara hidratante, Leave-in e Ceme para pentear</li>
+                                                <li>Hidratação intensa e proteção para todos os tipos de cabelo!</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p class="fs-5">
+                2024 &copy; Glow Essence - Site com imagens ilustrativas criadas com inteligência artificial
+            </p>
+            <ul class="container-flex d-flex">
+                <li>
+                    <a href="#">
+                        <i class="bi bi-facebook fs-4"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-instagram fs-4"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-youtube fs-4"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $('#telefone').mask('(00) 00000-0000'); 
+
+    $('form').validate({
+        rules: {
+            nome: {
+                required: true,
+                minlength: 3
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            telefone: {
+                required: false,
+                minlength: 14 
+            },
+            mensagem: {
+                required: true,
+                minlength: 10
+            }
+        },
+        messages: {
+            nome: {
+                required: "Por favor, insira seu nome.",
+                minlength: "O nome deve ter pelo menos 3 caracteres."
+            },
+            email: {
+                required: "Por favor, insira seu e-mail.",
+                email: "Por favor, insira um e-mail válido."
+            },
+            telefone: {
+                minlength: "Por favor, insira um telefone válido."
+            },
+            mensagem: {
+                required: "Por favor, insira sua mensagem.",
+                minlength: "A mensagem deve ter pelo menos 10 caracteres."
+            }
+        },
+        submitHandler: function (form) {
+            alert("Formulário enviado com sucesso!");
+            form.submit();
+        }
+    });
+});
+    </script>
+</body>
+</html>

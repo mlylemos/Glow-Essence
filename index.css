@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #B35EDE;
+    background-color: #F4E8A5;
+}
+
+.navbar {
+    background-color: #E6B8A2;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #EEDC82;
+    color: 	#E6B8A2;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #EEDC82;
+}
+
+.navbar-toggler {
+    background-color: #FAECE5;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #produtos, .form-control {
+    background-color: #FAECE5;
+}
+
+.text-colored {
+    color: #E6B8A2;
+}
+
+.size { 
+    height: 213px;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #E6B8A2;
+    color: #EEDC82;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #E6B8A2;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    padding-bottom: 16px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E6B8A2;
+    padding-top: 25px;
+    height: 80px;
+    color:#B35EDE;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 15px; 
+}
+
+footer li {
+    margin-left: 16px;
+}
+
+footer ul li a{
+    color:#B35EDE;
+}
+
+footer ul li a:hover {
+    color:#B35EDE;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .carousel-item img {
+        height: 602px;
+        width: 100%;
+}
+}
+    @media only screen and (min-width: 1025px) {
+    .carousel-item img {
+        height: 850px;
+        width: 100%;
+    }
+}
