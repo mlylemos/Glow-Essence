@@ -100,6 +100,27 @@ footer ul li a:hover {
         height: 350px;
         width: 100%;
     }
+
+    #produtos .tab-content img {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 360px;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    #eventos h3 {
+        margin-top: 7%;
+        margin-bottom: 5%;
+        font-size: larger;
+    }
+
+    #eventos img {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -107,6 +128,12 @@ footer ul li a:hover {
         height: 602px;
         width: 100%;
 }
+    #produtos .tab-content img {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 150px;
+        width: 100%;
+    }
 }
     @media only screen and (min-width: 1025px) {
     .carousel-item img {
